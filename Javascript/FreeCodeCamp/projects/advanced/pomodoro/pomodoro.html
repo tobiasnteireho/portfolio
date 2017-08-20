@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title>Pomodoro</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<h1>Pomodoro</h1><br>
+Pomodoro Session Time Remaining: <span id="session_len" class="ztext"></span>
+Break Time Remaining <span id="break_len"></span><br>
+<div id="incSession" class="btn btn-default">+Session</div>
+<div id="decSession" class="btn btn-default">-Sesssion</div>
+<div id="incBreak" class="btn btn-default">+Break</div>
+<div id="decBreak" class="btn btn-default">-Break</div>
+<zform action="none">
+<br>
+<button id="start" class="btn btn-success">start</button>
+<button id="pause" class="btn btn-info">pause</button>
+<button id="stop" class="btn btn-danger">stop</button>
+</zform>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="logic.js"></script>
+</body>
+</html>
