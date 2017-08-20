@@ -1,0 +1,25 @@
+body {
+	background-color: #F0F0AA;
+	font-size: 15pt;
+
+}
+.entry {
+	/*display: table-row;*/
+	background-color: #FFFAAA;
+	width: 450px;
+	border: 10px solid black;
+}
+
+.username {
+	display:table-cell;
+	background-color: #10F0AA;
+	width: 150px;
+	margin-right: 25px;
+	height: 50px;
+}
+
+.status {
+	display:table-cell;
+	background-color: #20F0BA;
+	width: 350px;
+}
