@@ -1,0 +1,57 @@
+<!--
+FreeCodeCamp Weather project
+Tobias Nteireho
+20170715
+
+TODO: Cleanup.
+-->
+
+<html>
+<head>
+	<meta charset="UTF8"/>
+	<title>Weather Dashtoy</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<div class="container text-center">
+	<h1 class="text-center">Weather Dash Toy</h1>
+	<form action="javascript:;//function myfunction(){return false;}">
+	<div class="row text-center">
+		<div class="long zcol-xs-6">
+		latitude<br>
+		<input id="latitude" type="numeric"></input>
+		</div>
+		<div class="long zcol-xs-6">
+		longitude<br>
+		<input id="longitude" type="text"></input>
+		</div>
+	</div>
+	<br>
+
+
+
+
+	<div class="row">
+		<div class="span12">
+			<div class="btn-group">
+			<label class="btn btn-primary" active>
+				<input id="scaleC" type="radio" name="scale" value="C" class="zbtn zbtn-primary" checked>C</input>
+			</label>
+			<label class="btn btn-primary">
+				<input id="scaleF" type="radio" name="scale" value="F" class="zbtn zbtn-primary">F</input>
+			</label>
+			</div>
+			<br><br>
+			<button id="checkWeather" class="btn btn-success">Check Weather</button>
+			</form>
+			<div id="current_weather"></div><br>
+		</div>
+	</div>
+	<div id="current_weather"></div><br>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="logic.js"></script>
+</body>
+</html>
