@@ -1,1 +1,1 @@
-proper backend for Angular tour of heroes
+proper restful backend for Angular tour of heroes
